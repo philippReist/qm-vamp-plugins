@@ -1,6 +1,6 @@
 [submodule "lib/vamp-plugin-sdk"]
 	path = lib/vamp-plugin-sdk
-	url = git@github.com:philippReist/vamp-plugin-sdk.git
+	url = https://github.com/c4dm/vamp-plugin-sdk.git
 [submodule "lib/qm-dsp"]
 	path = lib/qm-dsp
-	url = git@github.com:philippReist/qm-dsp.git
+	url = https://github.com/c4dm/qm-dsp.git
