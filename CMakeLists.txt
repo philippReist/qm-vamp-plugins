@@ -9,6 +9,10 @@ add_definitions(-DNOMINMAX)
 add_definitions(-DADD_)
 add_definitions(-Dkiss_fft_scalar=double)
 
+if (NOT WIN32)
+  add_definitions(-DUSE_PTHREADS)
+endif()
+
 aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/lib/qm-dsp/base BASE_SRC)
 
 # collect all src files for dsp
