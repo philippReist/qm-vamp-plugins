@@ -45,7 +45,7 @@ add_library(lib-qm-dsp STATIC
             ${MATHS_SRC}
             ${THREAD_SRC})
 
-target_include_directories(lib-qm-dsp PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(lib-qm-dsp PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/lib/qm-dsp/)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib/qm-dsp/ext/clapack/include
 ${CMAKE_CURRENT_SOURCE_DIR}/lib/qm-dsp/qm-dsp/ext/kissfft
